@@ -1,0 +1,24 @@
+def ams(num):
+    temp=num
+    sum=0
+    n=len(str(num))
+    for i in range(n):
+        d=temp%10
+        sum=sum+d**n
+        temp=temp//10
+    if sum==num:
+        print("armstrong")
+    else:
+        print("not armstrong")
+
+num=int(input("enter number"))
+ams(num)
+        
+
+
+
+
+
+
+
+
