@@ -1,5 +1,7 @@
-for i in range(5):
+num=1
+for i in range(6):
     for j in range(i+1):
         print(chr(65+j),end=" ")
+        
     print()
     
