@@ -5,7 +5,7 @@ for i in range(len(str(num))):
     digit=num%10
     rev=rev*10+digit
     num=num//10
-    if rev==temp:
+if rev==temp:
         print("palindrome")
-    else:
+else:
         print("not palindrome")

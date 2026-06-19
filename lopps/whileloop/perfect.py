@@ -13,4 +13,4 @@ def perfect(num):
       print(f"{num} is not perfect number")
 
 #for n in range(1,100):
-perfect(56)
+perfect(28)

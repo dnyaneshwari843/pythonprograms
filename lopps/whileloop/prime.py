@@ -4,9 +4,10 @@ def prime(num):
      print("enter  positive number")
     else:
      count=0
-    while i<=num//2+1:
+    while i<num//2+1:
         if num%i==0:
             count+=1
+        i+=1
     if count==0:
             print("prime number")
     else:

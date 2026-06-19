@@ -1,7 +1,7 @@
 def fabo(num):
     a,b=0,1
-    i=1
-    while i<=num:
+    i=0
+    while i<num:
         print(a,end="  ")
         a,b=b,a+b
         i+=1
