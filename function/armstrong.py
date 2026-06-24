@@ -1,10 +1,10 @@
 def ams(num):
     temp=num
     sum=0
-    n=len(str(num))
-    for i in range(n):
+   
+    for i in range(len(str(num))):
         d=num%10
-        sum=sum+d**n
+        sum=sum+d**3
         num=num//10
     if sum==temp:
         print("armstrong")

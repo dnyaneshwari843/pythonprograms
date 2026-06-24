@@ -1,0 +1,1 @@
+second=lambda 1:sorted(set(1))
