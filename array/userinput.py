@@ -8,7 +8,7 @@ def user_input():
     print(arr)
     for num in arr:
         if num%2==0:
-            print("even =",num,end=" ")
+            print("even, =",num,end=" ")
          
         
         
